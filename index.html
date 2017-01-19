@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Twitch Streamer List</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <img class="twitchLogo img-responsive" src="http://res.cloudinary.com/jtran/image/upload/v1460353905/twitch/Twitch_BlackLogo.svg.png" width="300" height="99" />
+    <h1 class="text-center title">Streamer List</h1>
+
+    <div class="container-fluid" style="max-width:1000px">
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#all">ALL</a></li>
+        <li><a data-toggle="tab" href="#online">ONLINE</a></li>
+        <li><a data-toggle="tab" href="#offline">OFFLINE</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="all" class="tab-pane fade in active">
+          <div id="all-list-group" class="list-group">
+          </div>
+        </div>
+        <div id="online" class="tab-pane fade">
+          <div id="online-list-group" class="list-group">
+          </div>
+        </div>
+        <div id="offline" class="tab-pane fade">
+          <div id="offline-list-group" class="list-group">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="scripts/script.js "></script>
+  </body>
+
+</html>

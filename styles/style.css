@@ -1,0 +1,87 @@
+/* Color Scheme: http://encycolorpedia.com/483d8b http://encycolorpedia.com/6441a5*/
+
+body {
+  background-color: #483d8b;
+  font-family: "Share Tech";
+}
+a {
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.title{
+    color: #e6e6e6;
+}
+.twitchLogo {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.listLogo {
+  height: 55px;
+  width: 55px;
+  border-color: gray;
+  border-width: 2px;
+  border-style: solid;
+  display: inline;
+  position: relative;
+  right: 15px;
+}
+
+.information{
+  font-size: 190%;
+  margin-left: 30px;
+
+}
+
+/* Bootstrap Override*/
+
+.tab-pane{ /* Makes tab-content more prominent w/ tab-pane*/
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.nav-tabs {
+  background-color: #242021;
+  font-size: 200%;
+}
+.tab-content {
+  background-color: #242021;
+  color: #e6e6e6;
+  padding: 5px;
+  border-radius: 0;
+}
+.nav-tabs > li > a {
+  border: medium none;
+  border-radius: 0;
+}
+.nav-tabs > li > a:hover {
+  background-color: #303136;
+  border: medium none;
+  border-radius: 0;
+  color: #e6e6e6;
+}
+/* Adds spacing between nav-tabs and content*/
+.list-group {
+  margin-top: 15px;
+}
+
+/*used for online channels*/
+a.online{
+  color: #e6e6e6;
+  background-color: #4f4681;
+}
+a.online:hover {
+  background-color: #e6e6e6;
+  color: #242021;
+}
+/* lused for offline channels*/
+a.offline{
+  color: #e6e6e6;
+  background-color: #545161;
+}
+
+a.offline:hover {
+  background-color: #e6e6e6;
+  color: #242021;
+}
